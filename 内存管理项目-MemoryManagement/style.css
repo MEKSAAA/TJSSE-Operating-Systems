@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h3 {
+    color: #333;
+    text-align: center;
+    margin-top: 10;
+    margin-bottom: 0;
+}
+
+.tables {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#parameter_table,
+#algorithm_table {  
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 0 20px;
+}
+
+#parameter_table td,
+#algorithm_table td {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+caption {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#memory_table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    height: 40px;
+    width:60%;
+    overflow-y: scroll;
+}
+
+#memory_table th, #memory_table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#memory_table th {
+    background-color: #333;
+    color: white;
+}
+
+#memory_table td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#memory_table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.miss-cell{
+    background-color: #0091ff2c;
+    color: black;
+}
+
+.exist-cell{
+    background-color: white;
+    color: black;
+}
+
+.change-cell{
+    background-color: #fff45c97;
+    color: black;
+}
+

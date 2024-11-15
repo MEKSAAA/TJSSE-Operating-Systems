@@ -1,0 +1,30 @@
+<RCC>
+    <qresource>
+	<file>images/up.png</file>
+	<file>images/alert.png</file>
+	<file>images/down.png</file>
+	<file>images/elevator.ico</file>
+	<file>images/F1.png</file>
+	<file>images/F2.png</file>
+	<file>images/F3.png</file>
+	<file>images/F4.png</file>
+	<file>images/F5.png</file>
+	<file>images/F6.png</file>
+	<file>images/F7.png</file>
+	<file>images/F8.png</file>
+	<file>images/F9.png</file>
+	<file>images/F10.png</file>
+	<file>images/F11.png</file>
+	<file>images/F12.png</file>
+	<file>images/F13.png</file>
+	<file>images/F14.png</file>
+	<file>images/F15.png</file>
+	<file>images/F16.png</file>
+	<file>images/F17.png</file>
+	<file>images/F18.png</file>
+	<file>images/F19.png</file>
+	<file>images/F20.png</file>
+	<file>images/openDoor.png</file>
+	<file>images/closeDoor.png</file>
+    </qresource>
+</RCC>
